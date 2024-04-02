@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bitcoin Charts</title>
+
+  <!-- <link rel="stylesheet" type="text/css" href="static/style.css"> -->
+  <!--internal CSS styles -->
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #C8C0BD  ; /* Set background color  */
+            text-align: center; /* Center align text */
+        }
+        .chart {
+            margin-bottom: 20px auto; /* Center align charts */
+            padding: 20px;
+          
+        }
+        h1 {
+          color: #FF4933; /* Set text color to orange */
+        }
+        h2 {
+        color: #474544 ; /* Set text color to grey */
+        }
+        p {
+          color: #080303; /* Set text color to black */
+        }
+        img {
+          max-width: 70%; /* Making sure images don't exceed their container width */
+          height: auto; /* Maintain aspect ratio */
+          display: block; /* Center align images */
+          margin: 0 auto; /* Center align images */
+        }
+    </style>
+</head>
+<body>
+    <h1>Bitcoin Data Insights</h1>
+  <br>
+    <div class="chart">
+        <h2>USD to CAD Exchange Rate</h2>
+      <br>
+      <p>This plot shows the USD to CAD exchange rate distribution within 7 days of a period starting from March 5th 2024.</p>
+      <br>
+        <img src="static/exchange_rate_chart.svg" alt="Exchange Rate Chart">
+        
+    </div>
+  <br>
+  <br>
+    <div class="chart">
+        <h2>Bitcoin Trade vs Transaction Volume Ratio</h2>
+      <br>
+      <p><b>The Bitcoin Trade vs Transaction Volume Ratio</b> is a metric used to compare the volume of Bitcoin traded on exchanges (trade volume) with the volume of Bitcoin transacted on the Bitcoin network (transaction volume).
+
+      <b>Trade volume</b> refers to the total amount of Bitcoin traded on various exchanges within a specific period, typically measured in terms of Bitcoin (BTC) or its equivalent value in fiat currency (e.g., USD).
+
+      <b>Transaction volume</b>, on the other hand, refers to the total amount of Bitcoin transacted on the Bitcoin network, which includes all transactions recorded on the blockchain.
+
+      The ratio between these two volumes can provide insights into the <b>liquidity and market activity of Bitcoin</b>.</p>
+      <br>
+        <img src="static/Volume_ratio_chart.svg" alt="Trade vs Transaction Volume Ratio Chart">
+        
+    </div>
+  <br>
+  <br>
+    <div class="chart">
+        <h2>Bitcoin Total Transaction Fees USD</h2>
+      <br>
+      <p><b>Bitcoin Total Transaction Fees USD</b> refers to the total amount of fees paid by users for transactions on the Bitcoin network, calculated in US dollars.The total transaction fees in USD can vary depending on the number of transactions being processed on the network, the size of each transaction, and the current network congestion.</p>
+      <br>
+      <img src="static/Transaction Fees_chart.svg" alt="transaction_fees">
+      
+    </div>
+  <br>
+  <br>
+    <div class="chart">
+        <h2>Bitcoin Cost Per Transaction</h2>
+      <br>
+      <p><b>Bitcoin Cost Per Transaction </b>refers to the average cost incurred for each transaction on the Bitcoin network, typically measured in USD.The Bitcoin Cost Per Transaction is an important metric as it provides insight into the cost efficiency of using Bitcoin for transactions.</p>
+      <br>
+      <img src="static/trans_chart.svg" alt="Bitcoin Cost Per Transaction">
+        
+        
+    </div>
+</body>
+</html>
